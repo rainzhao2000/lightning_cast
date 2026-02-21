@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:nether_star"
+    ],
+    [
+      "minecraft:blaze_rod"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:blaze_rod",
+    "components": {
+      "minecraft:custom_name": [
+        {
+          "text":"<<",
+          "color":"gold",
+          "bold":true,
+          "italic":false,
+          "obfuscated":true
+        },
+        {
+          "text":" Lightning Stick ",
+          "color":"gold",
+          "bold":true,
+          "italic":false
+        },
+        {
+          "text":">>",
+          "color":"gold",
+          "bold":true,
+          "italic":false,
+          "obfuscated":true
+        }
+      ],
+      "minecraft:lore": [
+        {
+          "text":"Smite your enemies",
+          "color":"dark_purple"
+        },
+        [
+            {
+            "text":"with the fear of ",
+            "color":"dark_purple"
+            },
+            {
+            "text":"God",
+            "color":"material_iron"
+            }
+        ]
+      ],
+      "minecraft:consumable": {
+        "consume_seconds": 10000,
+        "animation": "none",
+        "has_consume_particles": false
+      },
+      "minecraft:custom_data": {
+        "lightning": true
+      }
+    },
+    "count": 1
+  }
+}
