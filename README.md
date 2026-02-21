@@ -1,6 +1,6 @@
 # Lightning Cast Datapack
 
-A Minecraft datapack that introduces Lightning Stick item to summon lightning with right-click.
+A Minecraft datapack that introduces Lightning Stick item to summon lightning at where you look with right-click.
 
 [Official Modrinth page](https://modrinth.com/project/lightning-cast)
 
