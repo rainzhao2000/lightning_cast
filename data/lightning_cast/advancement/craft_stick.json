@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "crafted_lightning": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "lightning_cast:lightning_stick" 
+      }
+    }
+  },
+  "rewards": {
+    "function": "lightning_cast:equip_sound"
+  }
+}

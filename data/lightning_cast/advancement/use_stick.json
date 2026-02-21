@@ -1,16 +1,16 @@
 {
     "criteria": {
-        "using_item": {
+      "using_lightning": {
         "trigger": "minecraft:using_item",
         "conditions": {
-            "item": {
+          "item": {
             "items": "minecraft:blaze_rod",
             "predicates": {
-                "minecraft:custom_data": "{lightning:true}"
+              "minecraft:custom_data": "{lightning:true}"
             }
-            }
+          }
         }
-        }
+      }
     },
     "rewards": {
         "function": "lightning_cast:shoot"
