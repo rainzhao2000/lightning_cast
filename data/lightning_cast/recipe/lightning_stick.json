@@ -24,7 +24,8 @@
           "text":" Lightning Stick ",
           "color":"gold",
           "bold":true,
-          "italic":false
+          "italic":false,
+          "obfuscated":false
         },
         {
           "text":">>",
@@ -35,19 +36,25 @@
         }
       ],
       "minecraft:lore": [
-        {
-          "text":"Smite your enemies",
-          "color":"dark_purple"
-        },
         [
-            {
+          {
+            "text":"Smite your enemies",
+            "color":"dark_purple"
+          }
+        ],
+        [
+          {
             "text":"with the fear of ",
             "color":"dark_purple"
-            },
-            {
+          },
+          {
             "text":"God",
-            "color":"material_iron"
-            }
+            "color":"gold"
+          },
+          {
+            "text":"!",
+            "color":"dark_purple"
+          }
         ]
       ],
       "minecraft:consumable": {
